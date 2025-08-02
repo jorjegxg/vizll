@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
     "@heroui/navbar": "^2.2.21",
@@ -26,6 +25,8 @@
     "@tailwindcss/postcss": "^4",
     "@types/node": "24.1.0",
     "eslint": "^9.32.0",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4"
-  }
+  },
+  "homepage": "https://jorjegxg.github.io/vizll/"
 }
